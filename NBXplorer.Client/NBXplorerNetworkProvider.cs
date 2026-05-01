@@ -1,4 +1,4 @@
-﻿using NBitcoin;
+using NBitcoin;
 using System.Collections.Generic;
 
 namespace NBXplorer
@@ -32,6 +32,7 @@ namespace NBXplorer
 			InitQtum(networkType);
 			InitAlthash(networkType);
 			InitMonetaryUnit(networkType);
+			InitRaptoreum(networkType);   // RTM support
 			foreach (var chain in _Networks.Values)
 			{
 				chain.DerivationStrategyFactory ??= chain.CreateStrategyFactory();
