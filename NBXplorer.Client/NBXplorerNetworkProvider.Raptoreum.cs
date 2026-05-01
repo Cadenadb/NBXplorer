@@ -135,7 +135,7 @@ namespace NBXplorer
                    // Magic bytes: r=0x72, t=0x74, m=0x6d, .=0x2e (little-endian)
                    .SetMagic(0x2e6d7472)
                    .SetPort(10226)
-                   .SetRPCPort(9998)
+                   .SetRPCPort(10225)
                    .SetMaxP2PVersion(70220)
                    .SetBase58Bytes(Base58Type.PUBKEY_ADDRESS,  new byte[] { 60  })
                    .SetBase58Bytes(Base58Type.SCRIPT_ADDRESS,  new byte[] { 16  })
@@ -225,7 +225,7 @@ namespace NBXplorer
                    .AddAlias("RTM-regtest")
                    .SetMagic(0xdcb7c1fc)   // regtest magic from chainparams: fc=0xfc, c1, b7, dc
                    .SetPort(19899)
-                   .SetRPCPort(29998)
+                   .SetRPCPort(19225)
                    .SetMaxP2PVersion(70220)
                    .SetBase58Bytes(Base58Type.PUBKEY_ADDRESS,  new byte[] { 140 })
                    .SetBase58Bytes(Base58Type.SCRIPT_ADDRESS,  new byte[] { 19  })
