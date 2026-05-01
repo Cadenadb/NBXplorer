@@ -136,6 +136,7 @@ namespace NBXplorer
                    .SetMagic(0x2e6d7472)
                    .SetPort(10226)
                    .SetRPCPort(9998)
+                   .SetMaxP2PVersion(70220)
                    .SetBase58Bytes(Base58Type.PUBKEY_ADDRESS,  new byte[] { 60  })
                    .SetBase58Bytes(Base58Type.SCRIPT_ADDRESS,  new byte[] { 16  })
                    .SetBase58Bytes(Base58Type.SECRET_KEY,      new byte[] { 128 })
@@ -182,6 +183,7 @@ namespace NBXplorer
                    .SetMagic(0x74746d72)   // "rtmt" little-endian
                    .SetPort(11226)
                    .SetRPCPort(19998)
+                   .SetMaxP2PVersion(70220)
                    .SetBase58Bytes(Base58Type.PUBKEY_ADDRESS,  new byte[] { 140 })
                    .SetBase58Bytes(Base58Type.SCRIPT_ADDRESS,  new byte[] { 19  })
                    .SetBase58Bytes(Base58Type.SECRET_KEY,      new byte[] { 239 })
@@ -224,6 +226,7 @@ namespace NBXplorer
                    .SetMagic(0xdcb7c1fc)   // regtest magic from chainparams: fc=0xfc, c1, b7, dc
                    .SetPort(19899)
                    .SetRPCPort(29998)
+                   .SetMaxP2PVersion(70220)
                    .SetBase58Bytes(Base58Type.PUBKEY_ADDRESS,  new byte[] { 140 })
                    .SetBase58Bytes(Base58Type.SCRIPT_ADDRESS,  new byte[] { 19  })
                    .SetBase58Bytes(Base58Type.SECRET_KEY,      new byte[] { 239 })
