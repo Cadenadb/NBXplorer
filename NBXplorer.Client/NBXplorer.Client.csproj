@@ -3,14 +3,14 @@
 	<PropertyGroup>
 		<TargetFrameworks>net10.0;netstandard2.1</TargetFrameworks>
 		<Company>Digital Garage</Company>
-		<Version>5.0.6</Version>
+		<Version>5.0.7</Version>
 		<Copyright>Copyright © Digital Garage 2017</Copyright>
-		<Description>Client API for the minimalist HD Wallet Tracker NBXplorer</Description>
+		<Description>Client API for the minimalist HD Wallet Tracker NBXplorer (cadenadb fork with Raptoreum RTM support)</Description>
 		<PackageIcon>Bitcoin.png</PackageIcon>
-		<PackageTags>bitcoin</PackageTags>
-		<PackageProjectUrl>https://github.com/btcpayserver/NBXplorer/</PackageProjectUrl>
+		<PackageTags>bitcoin raptoreum rtm</PackageTags>
+		<PackageProjectUrl>https://github.com/cadenadb/NBXplorer/</PackageProjectUrl>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
-		<RepositoryUrl>https://github.com/btcpayserver/NBXplorer</RepositoryUrl>
+		<RepositoryUrl>https://github.com/cadenadb/NBXplorer</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<LangVersion>12</LangVersion>
@@ -27,8 +27,8 @@
 		  <NoWarn>$(NoWarn);1591;1573;1572;1584;1570;3021</NoWarn>
         </PropertyGroup>
 	<ItemGroup>
-		<PackageReference Include="NBitcoin" Version="10.0.3" />
-		<PackageReference Include="NBitcoin.Altcoins" Version="6.0.3" />
+		<PackageReference Include="NBitcoin" Version="9.0.0" />
+		<PackageReference Include="NBitcoin.Altcoins" Version="5.0.0" />
 	</ItemGroup>
     <ItemGroup>
         <InternalsVisibleTo Include="NBXplorer.Tests" />
